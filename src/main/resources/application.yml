@@ -1,0 +1,14 @@
+
+sfg:
+  brewery:
+    apihost: http://localhost:8080
+
+logging:
+  level:
+    org:
+      apache:
+        http: debug
+        springframework:
+          web: DEBUG
+server:
+  port: 8081
